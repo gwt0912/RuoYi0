@@ -18,7 +18,7 @@ public class RyTask
 
     public void ryParams(String params)
     {
-        System.out.println("执行有参方法：" + params);
+
     }
 
     public void ryNoParams()

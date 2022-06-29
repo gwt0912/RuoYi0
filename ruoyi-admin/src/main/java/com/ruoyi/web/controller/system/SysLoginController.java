@@ -61,7 +61,7 @@ public class SysLoginController extends BaseController
         try
         {
             subject.login(token);
-            return success();
+            return success(token);
         }
         catch (AuthenticationException e)
         {
